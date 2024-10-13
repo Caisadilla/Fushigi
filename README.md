@@ -10,7 +10,7 @@ An editor for Super Mario Bros. Wonder. Currently WIP.
 ```
 git clone https://github.com/shibbo/Fushigi
 cd Fushigi
-dotnet-8 publish -c Release
+dotnet publish -c Release
 ```
 
 The build will be created in `./Fushigi/bin/Release/net8.0/`. If you don't want the build to include the dotnet framework, use  `--no-self-contained`. If you want to make a Debug build, use `-c Debug` instead of `-c Release`.
